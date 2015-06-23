@@ -1,0 +1,6 @@
+Liar is a chromecast game that uses the jService API (http://jservice.io/).
+
+
+Resources:
+  jService - http://jservice.io/
+  redis - http://redis.io
