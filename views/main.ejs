@@ -1,7 +1,13 @@
 <html>
-<body>
-<div id=main>yo</div>
-<script src="https://cdn.socket.io/socket.io-1.3.5.js"></script>
-<script src="/main.js"></script>
-</body>
+  <body>
+    <h2>Liar</h2>
+    <h4 id="currentRoom"></h4>
+    <button id="create">create</button>
+    <button id="join">join</button>
+    <input type=text id=roomId placeholder="room id">
+    <input type=text id=name placeholder="name">
+    <script src="/vendor/socket.io-1.3.5.js"></script>
+    <script src="/vendor/zepto.min.js"></script>
+    <script src="/main.js"></script>
+  </body>
 </html>
